@@ -1,25 +1,28 @@
 const Features: React.FunctionComponent = () => {
   return (
-    // <div
-    //   style={{
-    //     backgroundImage: `url('https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/6207f36f5e57f0bc9b0e3f66_figure-1.png')`,
-    //   }}
-    //   className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2 "
-    // >
-    <div
-      style={{
-        backgroundImage: `url('https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/6207f36f5e57f0bc9b0e3f66_figure-1.png')`,
-      }}
-      className="mt-20 flow-root  p-10"
-    >
-      <div className="rounded-3xl ring-1 ring-gray-900/10  bg-white/60 backdrop-blur-sm">
-        <div className="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y-2 divide-purple-200  sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-y-0 lg:divide-x-2 xl:-mx-4 lg:py-[50px] ">
-          <div className="lg:px-8  xl:px-14 sm:mx-8 lg:mx-0 ">
+    <div className="mt-20 flow-root p-10 relative h-fit">
+      <div className="-z-50">
+        <img
+          src="https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/620fd028b7dbdd2b6c7bd42c_feature-1.png"
+          className=" w-[235px] absolute top-12 left-0 "
+        />
+        <img
+          src="https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/620fd659a117ef989bc2b15d_feature-3.png"
+          className=" w-[317px] absolute lg:right-1/3 lg:bottom-0 right-0 top-1/3"
+        />
+        <img
+          src="https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/620fd6dd43008681a25c2ba0_feature-2.png"
+          className="h-[420px] absolute -bottom-20 left-0 lg:-top-20 lg:right-0 lg:left-auto"
+        />
+      </div>
+      <div className="rounded-3xl ring-1 ring-gray-900/10 bg-white/60 backdrop-blur-sm px-12 pb-20 pt-6 ">
+        <div className="isolate grid  grid-cols-1 gap-y-16 divide-y-2 divide-purple-200 sm:mx-8 lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-y-0 lg:divide-x-2 xl:-mx-4 lg:py-[50px] py-10 ">
+          <div className="lg:px-8 xl:px-14 sm:mx-8 lg:mx-0 pt-14">
             <h3
               id="tier-basic"
               className="text-4xl font-normal leading-7 text-gray-900"
             >
-              Simple
+              Flexible
             </h3>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-xl tracking-tight text-gray-900">
@@ -79,12 +82,12 @@ const Features: React.FunctionComponent = () => {
               </li>
             </ul>
           </div>
-          <div className="lg:px-8  xl:px-14 sm:mx-8 lg:mx-0 ">
+          <div className="lg:px-8 xl:px-14 sm:mx-8 lg:mx-0 pt-14">
             <h3
               id="tier-basic"
               className="text-4xl font-normal leading-7 text-gray-900"
             >
-              Simple
+              Elegant
             </h3>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-xl tracking-tight text-gray-900">
@@ -144,12 +147,12 @@ const Features: React.FunctionComponent = () => {
               </li>
             </ul>
           </div>
-          <div className="lg:px-8  xl:px-14 sm:mx-8 lg:mx-0 ">
+          <div className="lg:px-8 xl:px-14 sm:mx-8 lg:mx-0 pt-14">
             <h3
               id="tier-basic"
               className="text-4xl font-normal leading-7 text-gray-900"
             >
-              Simple
+              Clever
             </h3>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-xl tracking-tight text-gray-900">
