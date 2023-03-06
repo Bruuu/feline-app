@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import About from "@/components/about";
 import Stats from "@/components/stats";
 import Features from "@/components/features";
+import Prices from "@/components/prices";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
         <Stats />
         <Features />
+        <Prices />
       </main>
     </>
   );
