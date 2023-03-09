@@ -5,6 +5,7 @@ import Stats from "@/components/stats";
 import Features from "@/components/features";
 import Prices from "@/components/prices";
 import Cats from "@/components/cats";
+import Faq from "@/components/faq";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Features />
         <Prices />
         <Cats />
+        <Faq />
       </main>
     </>
   );
