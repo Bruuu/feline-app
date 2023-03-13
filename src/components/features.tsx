@@ -16,7 +16,7 @@ const Features: React.FunctionComponent = () => {
         />
       </div>
       <div className="rounded-3xl ring-1 ring-gray-900/10 bg-white/60 backdrop-blur-sm px-12 pb-20 pt-6 ">
-        <div className="isolate grid  grid-cols-1 gap-y-16 divide-y-2 divide-purple-200 sm:mx-8 lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-y-0 lg:divide-x-2 xl:-mx-4 lg:py-[50px] py-10 ">
+        <div className="isolate grid grid-cols-1 gap-y-16 divide-y-2 divide-purple-200 sm:mx-8 lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-y-0 lg:divide-x-2 xl:-mx-4 lg:py-[50px] py-10 ">
           <div className="lg:px-8 xl:px-14 sm:mx-8 lg:mx-0 pt-14">
             <h3
               id="tier-basic"
