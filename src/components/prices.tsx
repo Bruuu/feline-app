@@ -1,9 +1,9 @@
+import Header from "./header";
+
 const Prices: React.FunctionComponent = () => {
   return (
     <section className="lg:mt-20 mt-24">
-      <span className="text-7xl font-medium tracking-tight text-gray-900 sm:text-6xl">
-        Price Plan
-      </span>
+      <Header text="Price plan" />
       <div
         style={{
           backgroundImage: `url('https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/6207f36f5e57f0bc9b0e3f66_figure-1.png')`,

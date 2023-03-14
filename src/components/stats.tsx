@@ -1,3 +1,5 @@
+import Header from "./header";
+
 const StatsItem: React.FunctionComponent<{
   header: string;
   body: string;
@@ -38,9 +40,9 @@ const Stats: React.FunctionComponent = () => {
   return (
     <section className="mt-20 md:mt-32 flex sm:flex-row flex-col space-x-4">
       <div className="flex md:flex-row flex-col gap-y-8 divide-y-2 divide-purple-200 md:divide-y-0 justify-between w-full">
-        <h1 className="flex text-7xl font-medium tracking-tight text-gray-900 sm:text-6xl w-[400px]">
-          In numbers
-        </h1>
+        <div className="flex w-[400px]">
+          <Header text="In numbers" />
+        </div>
         <div className="flex flex-col gap-y-8 md:gap-y-8 divide-y-2 md:pt-0 divide-purple-200 flex-1">
           {data.map((i, index) => (
             <StatsItem

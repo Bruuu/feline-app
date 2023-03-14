@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Header from "./header";
 
 const Question: React.FunctionComponent<{ question: string; body: string }> = ({
   question,
@@ -83,9 +84,7 @@ const Faq: React.FunctionComponent = () => {
   ];
   return (
     <section className="mt-32 ">
-      <h1 className="mt-10 text-7xl font-medium tracking-tight text-gray-900 sm:text-6xl">
-        FAQ
-      </h1>
+      <Header text="FAQ" />
       <div className="py-4 sm:py-6 lg:py-8">
         <div className="px-10 divide-y-2 divide-purple-200">
           <dl className="mt-10 space-y-6 divide-y-2 divide-purple-200">

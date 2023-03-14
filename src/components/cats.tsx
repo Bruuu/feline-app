@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Header from "./header";
 
 const Cats: React.FunctionComponent = () => {
   const cats = [
@@ -15,12 +16,10 @@ const Cats: React.FunctionComponent = () => {
     "Tom",
   ];
   return (
-    <section className="mt-24 sm:mt-32 lg:mt-16 ">
-      <h1 className="mt-10 text-7xl font-medium tracking-tight text-gray-900 sm:text-6xl">
-        Meet our cats
-      </h1>
+    <section className="mt-24 sm:mt-32 lg:mt-16">
+      <Header text="Meet our cats" />
       <div className="relative">
-        <div className="bg-lavender absolute top-24 w-full h-full -z-50" />
+        <div className="bg-lavender absolute top-24 w-full h-[95%] -z-50" />
         <ul
           role="list"
           className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-y-8 gap-x-8 text-center lg:mx-0 lg:max-w-none lg:grid-cols-5"
