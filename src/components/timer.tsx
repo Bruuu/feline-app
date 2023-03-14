@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
 const Timer: React.FunctionComponent<{
-  max: string;
+  max: number | number[];
 }> = ({ max }) => {
-  const isRange = max.indexOf("-") > -1;
-  const maxValue = max.indexOf("-") > -1 ? +max.split("-")[1] : +max;
+  const isRange = Array.isArray(max);
+  const maxValue = isRange ? max[1] : max;
 
   const [counter, setCounter] = useState(20);
 
@@ -16,7 +16,7 @@ const Timer: React.FunctionComponent<{
 
   return (
     <>
-      {isRange && <span> {max.split("-")[0]} - </span>}
+      {isRange && <span> {max[0]} - </span>}
       <span>{counter}</span>
     </>
   );

@@ -5,7 +5,7 @@ const StatsItem: React.FunctionComponent<{
   item: {
     header: string;
     body: string;
-    digit: string;
+    digit: number | number[];
     symbol?: string;
   };
 }> = ({ item }) => {
@@ -19,7 +19,7 @@ const StatsItem: React.FunctionComponent<{
         <div>{body}</div>
       </div>
       <div className="text-7xl text-slate-800 tracking-tighter md:self-center">
-        <Timer max={digit || "0"} />
+        <Timer max={digit} />
         {symbol && <span> {symbol}</span>}
       </div>
     </div>
@@ -30,18 +30,18 @@ const Stats: React.FunctionComponent = () => {
     {
       header: "Maximum speed",
       body: "A cat could beat Usain Bolt in a 200-metre dash",
-      digit: "47",
+      digit: 47,
       symbol: "km/h",
     },
     {
       header: "Recognized cat breeds",
       body: "There's no single determined number — cats like to follow their own rules.",
-      digit: "40-70",
+      digit: [40, 70],
     },
     {
       header: "Unique “vocabularies”",
       body: "Cats have 10 times more different vocalizations than dogs",
-      digit: "100",
+      digit: 100,
       symbol: "+",
     },
   ];
