@@ -32,7 +32,7 @@ const Cats: React.FunctionComponent = () => {
                     fill
                     alt="picture of a cat"
                     src={`/images/cat-${index + 1}.png`}
-                    className="rounded-full"
+                    className="rounded-full zoom-in-transition"
                     sizes={"width: 100%, height: 100%"}
                   />
                 </div>

@@ -11,7 +11,7 @@ const Question: React.FunctionComponent<{ question: string; body: string }> = ({
       <dt>
         <button
           type="button"
-          className="flex w-full items-start justify-between text-left text-gray-900"
+          className="flex zoom-in-transition w-full items-start justify-between text-left text-gray-900"
           aria-controls="faq-0"
           aria-expanded={open}
           onClick={() => setOpen(!open)}
