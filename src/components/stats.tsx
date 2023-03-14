@@ -13,14 +13,16 @@ const StatsItem: React.FunctionComponent<{
   return (
     <div className="flex flex-col-reverse md:flex-row pt-8 md:pt-8 tracking-tighter justify-between w-full ">
       <div className="flex flex-col">
-        <div className="flex text-3xl mb-5 mt-8 md:mt-0 tracking-normal">
+        <div className="flex md:text-3xl mb-2 md:mb-5 mt-4 md:mt-0 tracking-normal text-2xl">
           {header}
         </div>
-        <div>{body}</div>
+        <div className="text-base">{body}</div>
       </div>
-      <div className="text-7xl text-slate-800 tracking-tighter md:self-center">
+      <div className="flex items-center text-5xl md:text-7xl text-slate-800 tracking-tighter md:self-center">
         <Timer max={digit} />
-        {symbol && <span> {symbol}</span>}
+        {symbol && (
+          <span className="flex text-3xl md:text-5xl ml-2"> {symbol}</span>
+        )}
       </div>
     </div>
   );
@@ -47,7 +49,7 @@ const Stats: React.FunctionComponent = () => {
   ];
   return (
     <section className="mt-20 md:mt-32 flex sm:flex-row flex-col space-x-4">
-      <div className="flex md:flex-row flex-col gap-y-8 divide-y-2 divide-purple-200 md:divide-y-0 justify-between w-full">
+      <div className="flex md:flex-row md:gap-20 flex-col gap-y-8 divide-y-2 divide-purple-200 md:divide-y-0 justify-between w-full">
         <div className="flex w-[400px]">
           <Header text="In numbers" />
         </div>

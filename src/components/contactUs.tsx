@@ -74,7 +74,7 @@ const ContactUs: React.FunctionComponent = () => (
           <div>
             <button
               type="submit"
-              className="flex w-full max-w-4xl justify-center rounded-md bg-indigo-600 py-4 px-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="flex w-full max-w-4xl justify-center rounded-md bg-indigo-600 hover:bg-violet-600 py-4 px-3 text-base font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Submit
             </button>

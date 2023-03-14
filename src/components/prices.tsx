@@ -10,7 +10,7 @@ const Prices: React.FunctionComponent = () => {
         }}
         className="mt-4 p-10 flex lg:flex-row flex-col w-full gap-10"
       >
-        <div className="rounded-3xl flex-grow p-8 ring-1 ring-gray-900/10 sm:p-10 bg-white/60 backdrop-blur-sm sm:mx-8 lg:mx-0 lg:rounded-tr-3xl ">
+        <div className="zoom-in-transition rounded-3xl flex-grow p-8 ring-1 ring-gray-900/10 sm:p-10 bg-white/60 backdrop-blur-sm sm:mx-8 lg:mx-0 lg:rounded-tr-3xl ">
           <h3
             id="tier-team"
             className="text-base font-semibold leading-7 text-indigo-600"
@@ -95,7 +95,7 @@ const Prices: React.FunctionComponent = () => {
             </li>
           </ul>
         </div>
-        <div className="rounded-3xl flex-grow p-8 ring-1 ring-gray-900/10 sm:p-10 bg-white/60 backdrop-blur-sm sm:mx-8 lg:mx-0 lg:rounded-tr-3xl ">
+        <div className="zoom-in-transition rounded-3xl flex-grow p-8 ring-1 ring-gray-900/10 sm:p-10 bg-white/60 backdrop-blur-sm sm:mx-8 lg:mx-0 lg:rounded-tr-3xl ">
           <h3
             id="tier-team"
             className="text-base font-semibold leading-7 text-indigo-600"
