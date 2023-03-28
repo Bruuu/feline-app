@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import Header from "./header";
 
 const Cats: React.FunctionComponent = () => {

@@ -6,6 +6,11 @@ const Question: React.FunctionComponent<{ question: string; body: string }> = ({
   body,
 }) => {
   const [open, setOpen] = useState(false);
+  // TODO use a better semantic here
+  // <Details>
+  //     <Summary>{question}</Summary>/ aka question
+  //     <Answers>{answer}</Answers>
+  // </Details>
   return (
     <div className="pt-6">
       <dt>
