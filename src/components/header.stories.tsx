@@ -14,6 +14,4 @@ export default {
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {
-  text: "Here is my header",
-};
+Default.args = { text: "Here is my header" };
