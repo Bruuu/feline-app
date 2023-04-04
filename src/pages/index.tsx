@@ -7,6 +7,7 @@ import Prices from "@/components/prices";
 import Cats from "@/components/cats";
 import Faq from "@/components/faq";
 import ContactUs from "@/components/contactUs";
+import LineChart from "@/components/lineChart";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function Home() {
       </Head>
       <main className="px-8">
         <About />
+        <LineChart />
         <Stats />
         <Features />
         <Prices />
