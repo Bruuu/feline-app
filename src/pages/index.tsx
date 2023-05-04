@@ -20,15 +20,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="px-8">
+      <main className="px-8 pb-10">
         <About />
         <LineChart />
         <Stats />
         <Features />
         <Prices />
         <Cats />
-        <ContactUs />
         <Faq />
+        <ContactUs />
       </main>
     </>
   );
