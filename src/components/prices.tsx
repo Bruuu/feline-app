@@ -17,14 +17,12 @@ const Prices: React.FunctionComponent = () => {
           >
             Buy
           </h3>
-          <p className="mt-4 flex items-baseline gap-x-2">
-            <span className="text-5xl font-bold tracking-tight text-gray-900">
-              250 AUD
-            </span>
-            <span className="text-base text-gray-500">/month</span>
+          <p className="mt-4 text-5xl font-bold tracking-tight text-gray-900">
+            800 AUD
           </p>
           <p className="mt-6 text-base leading-7 text-gray-600">
-            A plan that scales with your rapidly growing business.
+            You can search cat breeds by temperament, physical needs, potential
+            health needs and even lifespan
           </p>
           <ul
             role="list"
@@ -43,7 +41,7 @@ const Prices: React.FunctionComponent = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Priority support
+              Possible genetic defects
             </li>
 
             <li className="flex gap-x-3">
@@ -59,7 +57,7 @@ const Prices: React.FunctionComponent = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Single sign-on
+              Breeding pets is not eco friendly
             </li>
 
             <li className="flex gap-x-3">
@@ -75,23 +73,8 @@ const Prices: React.FunctionComponent = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Enterprise integrations
-            </li>
-
-            <li className="flex gap-x-3">
-              <svg
-                className="h-6 w-5 flex-none text-indigo-600"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Custom reporting tools
+              Purebred cats's lifespans don't tend to be as long as more
+              genetically diverse cats
             </li>
           </ul>
         </div>
@@ -102,14 +85,11 @@ const Prices: React.FunctionComponent = () => {
           >
             Adopt
           </h3>
-          <p className="mt-4 flex items-baseline gap-x-2">
-            <span className="text-5xl font-bold tracking-tight text-gray-900">
-              250 AUD
-            </span>
-            <span className="text-base text-gray-500">/month</span>
+          <p className="mt-4 text-5xl font-bold tracking-tight text-gray-900">
+            250 AUD
           </p>
           <p className="mt-6 text-base leading-7 text-gray-600">
-            A plan that scales with your rapidly growing business.
+            The cat of your dreams may be waiting for you in a shelter.
           </p>
           <ul
             role="list"
@@ -128,7 +108,7 @@ const Prices: React.FunctionComponent = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Priority support
+              A better option for our planet
             </li>
 
             <li className="flex gap-x-3">
@@ -144,7 +124,7 @@ const Prices: React.FunctionComponent = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Single sign-on
+              Usually hugely adaptable
             </li>
 
             <li className="flex gap-x-3">
@@ -160,23 +140,7 @@ const Prices: React.FunctionComponent = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Enterprise integrations
-            </li>
-
-            <li className="flex gap-x-3">
-              <svg
-                className="h-6 w-5 flex-none text-indigo-600"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Custom reporting tools
+              The fee cover vaccinations and desexing
             </li>
           </ul>
         </div>
