@@ -13,7 +13,7 @@ const StatsItem: React.FunctionComponent<{
   return (
     <div className="flex flex-col-reverse md:flex-row pt-8 md:pt-8 tracking-tighter justify-between w-full ">
       <div className="flex flex-col">
-        <div className="flex md:text-3xl mb-2 md:mb-5 mt-4 md:mt-0 tracking-normal text-2xl">
+        <div className="flex md:text-3xl mb-2 md:mb-5 md:mt-0 text-2xl">
           {header}
         </div>
         <div className="text-base">{body}</div>

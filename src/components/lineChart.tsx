@@ -1,5 +1,4 @@
 import {
-  ChartType,
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
@@ -68,17 +67,15 @@ const LineChart: React.FunctionComponent = () => {
   };
 
   return (
-    <div className="min-w-screen min-h-fit flex items-center justify-center px-5 pt-20">
+    <div className="min-w-screen min-h-fit flex items-center justify-center pt-10 sm:pt-20">
       <div className="w-full max-w-3xl">
         <div className="-mx-2 md:flex">
-          <div className="w-full md:w-full px-2">
-            <div className="rounded-lg shadow-sm mb-4 border">
-              <div className="rounded-lg bg-white shadow-lg md:shadow-xl overflow-visible p-5">
-                <h4 className="p-4 text-center font-medium text-3xl text-gray-900 tracking-tight">
-                  Happy families with pets 2016-2022
-                </h4>
-                <Line data={chartData} options={options} />
-              </div>
+          <div className="rounded-lg shadow-sm mb-4 border">
+            <div className="rounded-lg bg-white shadow-lg md:shadow-xl overflow-visible p-5">
+              <h4 className="p-4 text-center font-medium text-xl sm:text-3xl text-gray-900 tracking-tight">
+                Happy families with pets 2016-2022
+              </h4>
+              <Line data={chartData} options={options} />
             </div>
           </div>
         </div>

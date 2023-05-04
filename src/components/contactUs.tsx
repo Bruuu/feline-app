@@ -1,7 +1,7 @@
 import Header from "./header";
 
 const ContactUs: React.FunctionComponent = () => (
-  <section className="mt-20 md:mt-40 flex md:flex-row flex-col space-x-4">
+  <section className="mt-10 md:mt-20 flex md:flex-row flex-col space-x-4">
     <div className="flex md:flex-row flex-col md:gap-y-8 justify-between md:gap-10 w-full">
       <Header text="Contact us" />
       <div className="flex flex-1 flex-col text-base md:text-lg">

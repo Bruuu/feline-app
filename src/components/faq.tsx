@@ -21,7 +21,7 @@ const Question: React.FunctionComponent<{ question: string; body: string }> = ({
           aria-expanded={open}
           onClick={() => setOpen(!open)}
         >
-          <span className="h-7 pl-10 items-center">
+          <span className="h-7 sm:pl-10 items-center">
             <svg
               className="h-6 w-6 aria-hidden:hidden"
               fill="none"
@@ -48,7 +48,7 @@ const Question: React.FunctionComponent<{ question: string; body: string }> = ({
               <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
             </svg>
           </span>
-          <span className="ml-10 text-base font-semibold flex-1 leading-7">
+          <span className="ml-2 sm:ml-10 text-base font-semibold flex-1 leading-7">
             {question}
           </span>
         </button>
@@ -58,7 +58,9 @@ const Question: React.FunctionComponent<{ question: string; body: string }> = ({
         id="faq-0"
         aria-hidden={!open}
       >
-        <p className="text-base leading-7 text-gray-600 pl-[104px]">{body}</p>
+        <p className="text-base leading-7 text-gray-600 pl-5 sm:pl-[104px]">
+          {body}
+        </p>
       </dd>
     </div>
   );
@@ -91,8 +93,8 @@ const Faq: React.FunctionComponent = () => {
     <section className="mt-32 ">
       <Header text="FAQ" />
       <div className="py-4 sm:py-6 lg:py-8">
-        <div className="px-10 divide-y-2 divide-purple-200">
-          <dl className="mt-10 space-y-6 divide-y-2 divide-purple-200">
+        <div className="sm:px-10 divide-y-2 divide-purple-200">
+          <dl className="sm:mt-10 space-y-2 sm:space-y-6 divide-y-2 divide-purple-200">
             {data.map(({ question, body }, i) => {
               return <Question key={i} question={question} body={body} />;
             })}
