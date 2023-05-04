@@ -26,8 +26,8 @@ const Features: React.FunctionComponent = () => {
             </h3>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-xl tracking-tight text-gray-900">
-                Here you will not find complex technological solutions that will
-                baffle you.
+                Cats are able to rotate their supple spines more than many other
+                animals and can twist their bodies to a much greater extent.
               </span>
             </p>
 
@@ -48,7 +48,7 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                5 products
+                Rotate their torso up to 90 degrees
               </li>
               <li className="flex gap-x-3">
                 <svg
@@ -63,7 +63,7 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                Up to 1,000 subscribers
+                Have especially elastic cushioning disks between bones
               </li>
               <li className="flex gap-x-3">
                 <svg
@@ -78,7 +78,8 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                Basic analytics
+                Shoulder blade is attached to the rest of the body only by
+                muscles
               </li>
             </ul>
           </div>
@@ -91,8 +92,7 @@ const Features: React.FunctionComponent = () => {
             </h3>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-xl tracking-tight text-gray-900">
-                Here you will not find complex technological solutions that will
-                baffle you.
+                Cats are role models on how to be elegant
               </span>
             </p>
 
@@ -113,7 +113,8 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                5 products
+                Have a righting reflex, which allows them land safely on their
+                feet
               </li>
               <li className="flex gap-x-3">
                 <svg
@@ -128,22 +129,8 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                Up to 1,000 subscribers
-              </li>
-              <li className="flex gap-x-3">
-                <svg
-                  className="h-6 w-5 flex-none text-indigo-600"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                Basic analytics
+                Their paws are soft and padded, which helps them jump around
+                quietly.
               </li>
             </ul>
           </div>
@@ -156,8 +143,8 @@ const Features: React.FunctionComponent = () => {
             </h3>
             <p className="mt-6 flex items-baseline gap-x-1">
               <span className="text-xl tracking-tight text-gray-900">
-                Here you will not find complex technological solutions that will
-                baffle you.
+                Cat intelligence is the capacity of the domesticated cat to
+                solve problems and adapt to its environment.
               </span>
             </p>
 
@@ -178,7 +165,7 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                5 products
+                Have excellent memories
               </li>
               <li className="flex gap-x-3">
                 <svg
@@ -193,7 +180,8 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                Up to 1,000 subscribers
+                Have an information-retention or recall of a duration up to 10
+                years
               </li>
               <li className="flex gap-x-3">
                 <svg
@@ -208,7 +196,7 @@ const Features: React.FunctionComponent = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                Basic analytics
+                Have fully developed concepts of object permanence
               </li>
             </ul>
           </div>
