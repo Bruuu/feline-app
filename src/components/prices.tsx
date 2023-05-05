@@ -73,8 +73,8 @@ const Prices: React.FunctionComponent = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Purebred cats's lifespans don't tend to be as long as more
-              genetically diverse cats
+              Purebred cats&apos;s lifespans don&apos;t tend to be as long as
+              more genetically diverse cats
             </li>
           </ul>
         </div>

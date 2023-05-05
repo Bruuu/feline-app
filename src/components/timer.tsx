@@ -12,7 +12,7 @@ const Timer: React.FunctionComponent<{
     if (counter < maxValue) {
       setTimeout(() => setCounter(counter + 1), 40);
     }
-  }, [counter]);
+  }, [counter, maxValue]);
 
   return (
     <>

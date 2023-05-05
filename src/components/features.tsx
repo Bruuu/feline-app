@@ -1,18 +1,29 @@
+import Image from "next/image";
+
 const Features: React.FunctionComponent = () => {
   return (
     <div className="mt-20 flow-root p-10 relative h-fit">
       <div className="-z-50">
-        <img
+        <Image
+          height={235}
+          width={235}
+          alt="gemetrical fugure on the background"
           src="https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/620fd028b7dbdd2b6c7bd42c_feature-1.png"
-          className=" w-[235px] absolute top-12 left-0 "
+          className="absolute top-12 left-0 "
         />
-        <img
+        <Image
+          height={317}
+          width={317}
+          alt="gemetrical fugure on the background"
           src="https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/620fd659a117ef989bc2b15d_feature-3.png"
-          className=" w-[317px] absolute lg:right-1/3 lg:bottom-0 right-0 top-1/3"
+          className="absolute lg:right-1/3 lg:bottom-0 right-0 top-1/3"
         />
-        <img
+        <Image
+          height={420}
+          width={420}
+          alt="gemetrical fugure on the background"
           src="https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/620fd6dd43008681a25c2ba0_feature-2.png"
-          className="h-[420px] absolute -bottom-20 left-0 lg:-top-20 lg:right-0 lg:left-auto"
+          className="absolute -bottom-20 left-0 lg:-top-20 lg:right-0 lg:left-auto"
         />
       </div>
       <div className="rounded-3xl ring-1 ring-gray-900/10 bg-white/60 backdrop-blur-sm px-12 pb-20 pt-6 ">

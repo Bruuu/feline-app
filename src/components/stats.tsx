@@ -37,7 +37,7 @@ const Stats: React.FunctionComponent = () => {
     },
     {
       header: "Recognized cat breeds",
-      body: "There's no single determined number — cats like to follow their own rules.",
+      body: "There is no single determined number — cats like to follow their own rules.",
       digit: [40, 70],
     },
     {

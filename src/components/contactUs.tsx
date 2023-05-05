@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Header from "./header";
 
 const ContactUs: React.FunctionComponent = () => (
@@ -5,15 +6,18 @@ const ContactUs: React.FunctionComponent = () => (
     <div className="flex md:flex-row flex-col md:gap-y-8 justify-between md:gap-10 w-full">
       <Header text="Contact us" />
       <div className="flex flex-1 flex-col text-base md:text-lg">
-        <div className="hidden md:flex h-0.5 my-10 w-full bg-purple-200 " />
+        <div className="hidden md:flex h-0.5 my-10 w-full bg-purple-200" />
         <form
           action="#"
           method="POST"
           className="space-y-6 max-w-4xl ml-0 md:ml-40 md:mr-10 mt-5 relative"
         >
-          <img
+          <Image
+            height={250}
+            width={250}
+            alt="gemetrical fugure on the background"
             src="https://uploads-ssl.webflow.com/6207dfcde6b2c229418d9e73/620fd659a117ef989bc2b15d_feature-3.png"
-            className="h-[250px] absolute bottom-20 -right-20 md:top-0 md:-right-12 md:left-auto -z-50  -rotate-45 "
+            className="absolute bottom-20 -right-20 md:top-0 md:-right-12 md:left-auto -z-50  -rotate-45"
           />
           <div>
             <label
