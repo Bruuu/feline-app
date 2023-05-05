@@ -1,6 +1,6 @@
 ## What is this?
 
-Welcome! Enjoy come cool facts about cats with me! This is a fun little project, a landing page that sells cats as the best pets 🐱
+Welcome! Enjoy some cool facts about cats with me! This is a fun little project, a landing page that sells cats as the best pets 🐱
 
 ### NextJS + Typescript + TailwindCSS + Storybook + Chart.js = ❤️
 
