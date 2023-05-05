@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## What is this?
+
+Welcome! Enjoy come cool facts about cats with me! This is a fun little project, a landing page that sells cats as the best pets 🐱
+
+### NextJS + Typescript + TailwindCSS + Storybook + Chart.js = ❤️
 
 ## Getting Started
 
